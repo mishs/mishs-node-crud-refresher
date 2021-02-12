@@ -1,0 +1,24 @@
+{
+  "name": "mishs-node-crud-refresher",
+  "version": "1.0.0",
+  "description": "node.js and crud operations refresher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishs/mishs-node-crud-refresher.git"
+  },
+  "keywords": [
+    "node",
+    "CRUD",
+    "form"
+  ],
+  "author": "Mish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishs/mishs-node-crud-refresher/issues"
+  },
+  "homepage": "https://github.com/mishs/mishs-node-crud-refresher#readme"
+}
