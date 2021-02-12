@@ -2,3 +2,12 @@
 body{
     background-color: #497e1d;
    }
+
+   header{
+    text-align: center;
+    height: 100px;
+    padding-top: 1px;
+    background-color: #3399ff;
+    color: #FFFFFF;
+    font-size: x-large;
+   }
