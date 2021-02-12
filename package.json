@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mishs/mishs-node-crud-refresher/issues"
   },
-  "homepage": "https://github.com/mishs/mishs-node-crud-refresher#readme"
+  "homepage": "https://github.com/mishs/mishs-node-crud-refresher#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
