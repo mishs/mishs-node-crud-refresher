@@ -2,7 +2,7 @@
   "name": "mishs-node-crud-refresher",
   "version": "1.0.0",
   "description": "node.js and crud operations refresher",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
