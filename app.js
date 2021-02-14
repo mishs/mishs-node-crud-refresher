@@ -8,6 +8,12 @@ const rateLimit = require('express-rate-limit')
 
 const app = express()
 const server = http.createServer(app)
+
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, //15 mins
+    max: 100 //limit each IP to 100 requests per windowMs
+})
+
 var db = new sqlite.Database('./database/employees.db');
 
 //app.use()- tells express to use piece of middleware
