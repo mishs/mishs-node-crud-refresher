@@ -1,5 +1,5 @@
 const sqlite = require('sqlite').verbose()
-const express = require('express')
+const express = require('express') // req('exp') returns function reference of function called express()
 const http = require('http')
 const path = require('path')
 const bodyParser = require('body-parser')
