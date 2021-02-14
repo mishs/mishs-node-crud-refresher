@@ -6,4 +6,6 @@ const bodyParser = require('body-parser')
 const helmet = require('helmet')
 const rateLimit = require('express-rate-limit')
 
+const app = express()
+const server = http.createServer(app)
 var db = new sqlite.Database('./database/employees.db')
