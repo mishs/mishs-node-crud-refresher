@@ -14,3 +14,4 @@ var db = new sqlite.Database('./database/employees.db');
 //Middleware is a function Express passes req through before sending them to your routing func
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(_dirname,'./public')));
+app.use(helmet());
